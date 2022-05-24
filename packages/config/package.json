@@ -1,14 +1,12 @@
 {
-    "name": "backend-api",
+    "name": "config",
     "version": "1.0.0",
-    "main": "index.js",
+    "main": "./dist/index.js",
+    "types": "./dist/index.d.ts",
     "license": "MIT",
     "scripts": {
         "build": "rm -rf dist && tsc",
         "dev": "node ./dist/index.js"
-    },
-    "dependencies": {
-        "config": "*"
     },
     "devDependencies": {
         "typescript": "^4.6.4",
