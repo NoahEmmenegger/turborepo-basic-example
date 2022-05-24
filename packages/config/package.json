@@ -6,7 +6,7 @@
     "license": "MIT",
     "scripts": {
         "build": "rm -rf dist && tsc",
-        "dev": "node ./dist/index.js"
+        "dev": "yarn build"
     },
     "devDependencies": {
         "typescript": "^4.6.4",
