@@ -1,0 +1,13 @@
+{
+    "name": "backend-api",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+        "build": "rm -rf dist && ./node_modules/.bin/tsc -p ./tsconfig.json",
+        "dev": "node ./dist/index.js"
+    },
+    "devDependencies": {
+        "typescript": "^4.6.4"
+    }
+}
