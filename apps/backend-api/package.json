@@ -4,7 +4,7 @@
     "main": "index.js",
     "license": "MIT",
     "scripts": {
-        "build": "rm -rf dist && ./node_modules/.bin/tsc -p ./tsconfig.json",
+        "build": "rm -rf dist && tsc",
         "dev": "node ./dist/index.js"
     },
     "devDependencies": {
