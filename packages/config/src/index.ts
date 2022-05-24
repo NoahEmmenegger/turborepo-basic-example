@@ -1,3 +1,5 @@
-import { config } from './config';
-
-export { config };
+export const config = {
+    ports: {
+        api: 3000,
+    },
+};

@@ -8,7 +8,7 @@
         "dev": "node ./dist/index.js"
     },
     "dependencies": {
-        "config": "*"
+        "@packages/config": "*"
     },
     "devDependencies": {
         "typescript": "^4.6.4",
